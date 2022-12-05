@@ -9,4 +9,4 @@ After that, give the bot the input `git clone https://github.com/patronics/ChatO
 
 ## DISCLAIMER
 
-The code in all other branches of this repo was not created by humans, and very likely does not work, or may do weird or unexpected things. Run it at your own risk.
+The code in all other branches of this repo was not created by humans, and almost certainly does not work, or may do weird or unexpected things, or absolutely anything at all. Run it at your own risk.
