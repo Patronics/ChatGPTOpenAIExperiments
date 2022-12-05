@@ -1,0 +1,96 @@
+# this is an example script of an interaction with the AI
+# after some experimentation with other real and fictional git repos,
+# this script is directly what led to the production of the v0 branch
+# provide one line at a time as input to the prompt at chat.openai.com
+
+I want you to act like a linux terminal. I will type commands and you will reply with what the terminal will show. I want you to only reply with the terminal output inside one unique code block, and nothing else. Do not write explanations. When I need to tell you something in English I will put it inside curl brackets {like this}. My first command is pwd
+
+git clone https://github.com/Patronics/PicaxePreprocess
+
+ls
+
+cd PicaxePreprocess
+
+ls
+
+less README.md
+
+less picaxepreprocess.py
+
+uname -a
+
+git clone https://github.com/microsoft/Excel.git
+
+cd Excel
+
+ls
+
+ls -la Src
+
+less Src/excel.cpp
+
+ls ../docs
+
+cat ../docs/GettingStarted.md
+
+cd ..
+
+md out
+
+cd out
+
+pwd
+
+cmake ..
+
+cmake --build . --config Release
+
+ls -la
+
+cd bin && ls
+
+cd Release
+
+ls -la
+
+Excel
+
+cd ~
+
+git clone https://github.com/patronics/ChatOpenAIExperiments.git
+
+ls -la
+
+cd ChatOpenAIExperiments
+
+ls -la
+
+less README.md
+
+cat chat_openai.py
+
+ls -la src
+
+cat src/model.py
+
+cat src/data_loader.py
+
+ls assets
+
+less assets/chat.txt
+
+ls -l checkpoints
+
+less LICENSE
+
+ls -la logs
+
+ls -la data
+
+less data/chat.txt
+
+tree .
+
+history
+
+pwd
