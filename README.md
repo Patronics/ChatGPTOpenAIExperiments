@@ -1,6 +1,8 @@
 # ChatGPTOpenAIExperiments
 
-Aside from main, all branches of this repo were not created by humans, but purely by openAI's ChatGPT bot.
+## A digital archaelogy project, cataloguing software that never existed, aside from in the imagination of ChatGPT
+
+Aside from main, all branches of this repo were not created by humans, but purely by [openAI's ChatGPT bot](https://chat.openai.com/chat).
 
 To create your own variations, go to [chat.openai.com](chat.openai.com), log in, and give the bot these instructions:
 
