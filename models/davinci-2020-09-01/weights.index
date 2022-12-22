@@ -1,0 +1,11 @@
+{
+    "model": "davinci",
+    "version": "2020-09-01",
+    "weights": [
+        {
+            "id": "davinci-2020-09-01",
+            "size": "650MB",
+            "url": "https://openai.com/models/davinci-2020-09-01/weights.data-00000-of-00001"
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "model": "davinci",
+    "engine": "davinci",
+    "description": "GPT-3 model fine-tuned on conversation data.",
+    "url": "https://api.openai.com/v1/models/davinci/2020-09-01",
+    "versions": [
+        "2020-09-01"
+    ],
+    "id": "davinci-2020-09-01",
+    "default_model_version": "2020-09-01",
+    "created": "2022-12-22T05:16:33.569357Z",
+    "model_type": "gpt3",
+    "training_info": {
+        "training_iteration": 1,
+        "num_parameters": 125,
+        "num_layers": 3,
+        "num_heads": 12
+    }
+}
