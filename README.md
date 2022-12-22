@@ -1,15 +1,33 @@
-# ChatGPTOpenAIExperiments
+# Microsoft Word
 
-## A digital archaelogy project, cataloguing software that never existed, aside from in the imagination of ChatGPT
+[![Build Status](https://travis-ci.org/microsoft/word.svg?branch=master)](https://travis-ci.org/microsoft/word)
+[![Coverage Status](https://coveralls.io/repos/github/microsoft/word/badge.svg?branch=master)](https://coveralls.io/github/microsoft/word?branch=master)
 
-Aside from main, all branches of this repo were not created by humans, but purely by [openAI's ChatGPT bot](https://chat.openai.com/chat).
+Microsoft Word is a word processing software that allows users to create, edit, and save documents. It is part of the Microsoft Office suite of productivity tools.
 
-To create your own variations, go to [chat.openai.com](chat.openai.com), log in, and give the bot these instructions:
+## Installation
 
-```I want you to act like a linux terminal. I will type commands and you will reply with what the terminal will show. I want you to only reply with the terminal output inside one unique code block, and nothing else. Do not write explanations. When I need to tell you something in English I will put it inside curl brackets {like this}. My first command is pwd```
+To install Microsoft Word, you will need a valid Microsoft Office license. You can purchase a license online or through a local retailer. Once you have a license, you can download the software from the Microsoft website or through the Microsoft Office app.
 
-After that, give the bot the input `git clone https://github.com/patronics/ChatGPTOpenAIExperiments.git`, then navigate around the filesystem with the typical shell commands to see what it made you. copy the files it creates elsewhere by viewing them with `cat` or  `less`. 
+## Usage
 
-## DISCLAIMER
+To use Microsoft Word, open the software and create a new document by clicking the "New" button in the top-left corner of the window. You can then begin typing or pasting text into the document. To save the document, click the "Save" button in the top-left corner of the window and choose a location to save the file.
 
-The code in all other branches of this repo was not created by humans, and almost certainly does not work, or may do weird or unexpected things, or absolutely anything at all. Run it at your own risk.
+Microsoft Word includes a variety of formatting options, including font size, font style, and text color. You can access these options by clicking the "Home" tab in the top menu and selecting the desired formatting option from the toolbar.
+
+## Support
+
+If you encounter any issues while using Microsoft Word, you can visit the Microsoft support website for assistance. There, you will find a variety of resources, including FAQs, tutorials, and a support forum.
+
+## Contributing
+
+We welcome contributions to Microsoft Word. If you would like to contribute, please follow these guidelines:
+
+- Fork the repository and create a new branch for your changes.
+- Make your changes and test them thoroughly.
+- Create a pull request and include a detailed description of your changes.
+
+## License
+
+Microsoft Word is licensed under the MIT License. See [LICENSE](LICENSE) for more information.
+
