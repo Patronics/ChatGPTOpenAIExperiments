@@ -1,15 +1,30 @@
 # ChatGPTOpenAIExperiments
 
-## A digital archaelogy project, cataloguing software that never existed, aside from in the imagination of ChatGPT
+This is a repository to hold experiments with the OpenAI GPT-3 API. The goal is to create a chatbot that can hold a conversation with a human.
 
-Aside from main, all branches of this repo were not created by humans, but purely by [openAI's ChatGPT bot](https://chat.openai.com/chat).
+## Data
 
-To create your own variations, go to [chat.openai.com](chat.openai.com), log in, and give the bot these instructions:
+The data used for training is a collection of movie scripts from the Cornell Movie Dialogs Corpus. The scripts have been cleaned and formatted for easier use.
 
-```I want you to act like a linux terminal. I will type commands and you will reply with what the terminal will show. I want you to only reply with the terminal output inside one unique code block, and nothing else. Do not write explanations. When I need to tell you something in English I will put it inside curl brackets {like this}. My first command is pwd```
+## Training
 
-After that, give the bot the input `git clone https://github.com/patronics/ChatGPTOpenAIExperiments.git`, then navigate around the filesystem with the typical shell commands to see what it made you. copy the files it creates elsewhere by viewing them with `cat` or  `less`. 
+The model was trained using the OpenAI API with the following settings:
 
-## DISCLAIMER
+- Engine: davinci
+- Temperature: 0.7
 
-The code in all other branches of this repo was not created by humans, and almost certainly does not work, or may do weird or unexpected things, or absolutely anything at all. Run it at your own risk.
+## Results
+
+The chatbot is able to hold a coherent conversation with a human. However, it does struggle with understanding context and following the conversation if it goes off track. It also tends to repeat itself and generate generic responses.
+
+## Future Work
+
+There is still room for improvement in the chatbot's performance. Some ideas for future work include:
+
+- Fine-tuning the model with more data and adjusting the training parameters
+- Implementing a context tracker to better understand the conversation
+- Adding a response selection mechanism to prevent repetition and generate more diverse responses
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
