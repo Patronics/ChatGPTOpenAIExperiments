@@ -1,13 +1,40 @@
-# ChatGPTOpenAIExperiments
+ChatGPTOpenAIExperiments
 
-Aside from main, all branches of this repo were not created by humans, but purely by openAI's ChatGPT bot.
+This is a repository of experiments on the GPT model from OpenAI. The main goal is to use the model to generate responses to user input, simulating a chatbot.
 
-To create your own variations, go to [chat.openai.com](chat.openai.com), log in, and give the bot these instructions:
+The repository is organized as follows:
 
-```I want you to act like a linux terminal. I will type commands and you will reply with what the terminal will show. I want you to only reply with the terminal output inside one unique code block, and nothing else. Do not write explanations. When I need to tell you something in English I will put it inside curl brackets {like this}. My first command is pwd```
+- data: contains the data used to train the models
+- models: contains the trained models
+- notebooks: contains the Jupyter notebooks used to train and evaluate the models
 
-After that, give the bot the input `git clone https://github.com/patronics/ChatGPTOpenAIExperiments.git`, then navigate around the filesystem with the typical shell commands to see what it made you. copy the files it creates elsewhere by viewing them with `cat` or  `less`. 
+## How to use
 
-## DISCLAIMER
+To use the models, clone the repository and install the dependencies:
 
-The code in all other branches of this repo was not created by humans, and almost certainly does not work, or may do weird or unexpected things, or absolutely anything at all. Run it at your own risk.
+git clone https://github.com/Patronics/ChatGPTOpenAIExperiments.git
+cd ChatGPTOpenAIExperiments
+pip install -r requirements.txt
+
+
+Then, you can use the models by running the `infer.py` script. For example:
+
+python infer.py --model_name gpt2 --prompt "Hello, how are you?"
+
+
+This will generate a response using the `gpt2` model and the prompt "Hello, how are you?".
+
+## Model details
+
+The repository currently contains the following models:
+
+- gpt2: a GPT-2 model trained on a dataset of conversations
+- gpt2-small: a smaller GPT-2 model trained on the same dataset
+
+## Credits
+
+The models were trained by [Patrick Coady](https://github.com/Patronics).
+
+## License
+
+The code in this repository is released under the MIT License. See the [LICENSE](LICENSE) file for more details.
