@@ -2,19 +2,26 @@
 
 class Word {
   createDocument() {
-    // Logic for creating a new document goes here
+    // Create a new document with default formatting
+    const doc = new Document();
   }
 
   openDocument(file) {
-    // Logic for opening an existing document goes here
+    // Open the specified file
+    const doc = new Document();
+    doc.open(file);
   }
 
   saveDocument() {
-    // Logic for saving the current document goes here
+    // Save the current document with its current file name
+    const doc = new Document();
+    doc.save();
   }
 
   saveDocumentAs(file) {
-    // Logic for saving the current document with a new name goes here
+    // Save the current document with a new name
+    const doc = new Document();
+    doc.saveAs(file);
   }
 }
 
