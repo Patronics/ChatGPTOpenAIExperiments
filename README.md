@@ -1,4 +1,4 @@
-# ChatOpenAIExperiments
+# ChatGPTOpenAIExperiments
 
 Aside from main, all branches of this repo were not created by humans, but purely by openAI's ChatGPT bot.
 
